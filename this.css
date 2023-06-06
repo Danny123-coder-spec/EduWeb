@@ -1,0 +1,131 @@
+*{
+    padding:0;
+    margin:0;
+    outline:0;
+    text-decoration:none;
+    border: 0;
+    list-style:none;
+    box-sizing:border-box;
+    align-items:center;
+}
+
+body{
+    background:grey;
+    text-align: center;
+    font-family: Monserrat, sans-serif;
+    line-height: 1.4;
+}
+
+.login-page{
+    padding: 8rem;
+    font-size: 20px;
+}
+
+.profile{
+    width:15%;
+    object-fit: cover;
+}
+
+#fstname{
+    margin:20px;
+    font-size:20px;
+
+}
+
+#lstname{
+    padding: 19px;
+    font-size: 20px;
+
+}
+
+#fname{
+    padding:15px;
+    margin:14px;
+    border-radius:0.6rem;
+    font-size:17px;
+    min-width: 30%;
+    text-align:center;
+}
+
+#lname{
+    padding:15px;
+    text-align:center;
+    border-radius:0.6rem;
+    font-size:17px;
+    min-width:30%;
+    margin:14px;
+}
+
+.country__options{
+    font-size: 5rem;
+}
+
+#countOp{
+    font-size: 17px;
+}
+
+
+
+#slect{
+    padding:15px;
+    border-radius: 0.6rem;
+    margin: 19px;
+    font-size: 17px;
+}
+
+#pwd{
+    padding: 15px;
+    text-align: center;
+    border-radius: 0.6rem;
+    font-size: 17px;
+    min-width:30%;
+    margin: 14px;
+}
+
+#re-pwd{
+    padding: 15px;
+    margin: 14px;
+    text-align: center;
+    border-radius: 0.6rem;
+    min-width: 30%;
+    font-size: 17px;
+
+}
+
+#email{
+    padding: 15px;
+    margin: 14px;
+    border-radius: 0.6rem;
+    min-width: 35%;
+    font-size: 17px;
+    text-align: center;
+}
+
+#sub{
+    padding:17px;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 17px;
+}
+
+#sub:hover{
+    background:tomato;
+}
+
+#cacc{
+    cursor:pointer;
+}
+
+#acc:hover{
+    color:yellowgreen;
+
+}
+
+#cpass{
+    cursor: pointer;
+}
+
+#crpass:hover{
+    color: yellowgreen;
+}

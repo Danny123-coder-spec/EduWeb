@@ -1,0 +1,1 @@
+print('The boy is going to school')
